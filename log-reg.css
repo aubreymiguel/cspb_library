@@ -1,0 +1,176 @@
+body {
+	margin: 0;
+	background: rgb(240, 255, 244);
+
+}
+
+
+.index {
+	max-width: 650px;
+	padding: 2%;
+
+}
+
+.index hr {
+	max-width: 600px;
+}
+
+.index_stdnt {
+	padding: 5%;
+	max-width: 500px;
+	margin-top: 7%;
+	border: 1px solid gray;
+}
+
+#cspb {
+	font-size: 17px;
+	font-family: Old English Text MT;
+	color: black;
+	margin-bottom: 0;
+}
+
+.index h1 {
+	margin-top: 0;
+	font-size: 38px;
+	font-family: Montserrat;
+	color: black;
+
+}
+
+
+.index input[name="uID"] {
+	width: 400px;
+	padding: 2%;
+	border-radius: 10px 10px 10px 10px;
+	border: 2px solid darkgray;
+	outline: none;
+	color: black;
+	font-size: 16px;
+}
+
+.index input[name="uID"]:focus {
+	border-color: rgb(0, 83, 36);
+}
+
+.index input[name="uPass"] {
+	width: 400px;
+	padding: 2%;
+	border-radius: 10px 10px 10px 10px;
+	border: 2px solid darkgray;
+	outline: none;
+	color: black;
+	font-size: 16px;
+}
+
+.index input[name="uPass"]:focus {
+	border-color: rgb(0, 83, 36);
+}
+
+
+.index input[name="submit1"] {
+	padding: 8px;
+	width: 120px;
+	font-size: 17px;
+	background-color: rgb(0, 83, 36);
+	color: white;
+	border-radius: 7px 7px 7px 7px;
+	border: 1px solid rgb(120,120,120);
+	transition: .3s;
+}
+
+.index input[name="submit1"]:hover {
+	cursor: pointer;
+	transition: .3s;
+	box-shadow: 0 0 9px gray;
+}
+
+.index a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black
+}
+
+.index a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+	color: black;
+}
+
+.index p {
+	font-size: 14px;
+	font-family: Montserrat, sans-serif;
+	color: black;
+}
+
+.index2 {
+	max-width: 950px;
+	height: 500px;
+	margin-top: 3%;
+
+}
+
+.index2 h1 {
+	font-family: Montserrat, sans-serif;
+	color: black;
+
+}
+
+.index2_stdnt {
+	padding: 2%;
+	max-width: 800px;
+	margin-top: 5%;
+	border: 1px solid gray;
+}
+
+.index2 hr{
+	max-width: 700px;
+}
+
+.index2 input[name="uID"], .index2 input[name="uFirst"], 
+.index2 input[name="uLast"], .index2 input[name="uAddr"],
+.index2 input[name="uCntc"], .index2 input[name="uEmail"],
+.index2 input[name="uPass"], .index2 input[name="uCrs"],
+.index2 input[name="uSctn"], .index2 input[name="uYear"],
+.index2 input[name="uGrdn"], .index2 input[name="uGcon"] {
+	width: 200px;
+	padding: 8px;
+	border-radius: 10px 10px 10px 10px;
+	border: 2px solid darkgray;
+	outline: none;
+}
+
+.index2 input[name="uID"]:focus, .index2 input[name="uFirst"]:focus, 
+.index2 input[name="uLast"]:focus, .index2 input[name="uCntc"]:focus,
+.index2 input[name="uEmail"]:focus, .index2 input[name="uPass"]:focus, 
+.index2 input[name="uCrs"]:focus {
+
+	border-color: rgb(0, 83, 36);
+}
+
+.index2 input[name="reg"] {
+	float: right;
+	margin-right: 15%;
+	margin-bottom: 5%;
+	padding: 8px;
+	width: 150px;
+	font-size: 15px;
+	background-color: rgb(0, 83, 36);
+	color: white;
+	border-radius: 7px 7px 7px 7px;
+	border: 1px solid rgb(120,120,120);
+	transition: .3s;
+}
+
+.index2 input[name="reg"]:hover {
+	cursor: pointer;
+	box-shadow: 0 0 9px gray;
+	transition: .3s;
+}
+
+
+.column {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	margin-bottom: 4%;
+}
